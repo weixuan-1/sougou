@@ -1,0 +1,238 @@
+.sitepath{
+    width: 1180px;
+    height: 49px;
+    font-size: 14px;
+    line-height: 49px;
+    margin: 0 auto;
+    color: #8c8c8c;
+}
+.sitepath a{
+    color: #262626;
+}
+.sitepath a:hover{
+    color: red;
+}
+.details{
+    width: 1180px;
+    height: 652px;
+    margin: 0 auto;
+    padding: 0 0 60px;
+}
+.details-type{
+    width: 620px;
+    height: 516px;
+    float: left;
+    padding: 0 0 0 50px;  
+}
+.details-type h2{
+    min-height: 42px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #262626;
+    line-height: 1.5em;
+}
+.details-type .p1{
+    min-height: 26px;
+    font-size: 16px;
+    line-height: 1.63em;
+    color: #8c8c8c;
+    margin-top: 15px;
+}
+.details-type .p2 span:nth-child(1){
+    color: #ea413c;
+    font-size: 16px;
+}
+.details-type .p2 span:nth-child(2){
+    margin-top: 25px;
+    font-size: 28px;
+    color: #ea413c;
+    margin-left: 10px;
+}
+.details-type .p2 span:nth-child(3){
+    display: inline-block;
+    width: 44px;
+    height: 22px;
+    line-height: 22px;
+    border-right: 2px;
+    background: #f77168;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 20px;
+    bottom: 4px;
+    border-radius: 2px;
+}
+.details-type .p3{
+    margin-top: 25px;
+    color: #262626;
+    font-size: 16px;
+}
+.details-type .p4 a{
+    display: block;
+    float: left;
+    width: 188px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 16px;
+    color: #262626;
+    border: 1px solid #d9d9d9;
+    margin: 20px 20px 0 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.details-btn{
+    display: block;
+    float: left;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #8c8c8c;
+    border: 1px solid #d9d9d9;
+    font-size: 30px;
+}
+.detail-text{
+    display: block;
+    float: left;
+    width: 70px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #262626;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    border-left: none;
+    border-right: none;
+    font-size: 16px;
+}
+.shop-btn{
+    margin-top: 25px;
+}
+.shop-btn div{
+    float: left;
+    background: #fff;
+    color: #ea413c;
+    border: 1px solid #ea413c;
+    line-height: 48px;
+    margin-right: 20px;
+    height: 48px;
+    width: 188px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.shop-btn div:last-child{
+    background: #ea413c;
+    color: #fff;
+}
+.tab-box{
+    width: 1180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.product-detail{
+    width: 100%;
+    position: relative;
+}
+.tab-row{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.tab-box{
+    width: 1180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.no-btn{
+    float: left;
+    width: 200px;
+    height: 48px;
+    border: solid #d9d9d9 1px;
+    border-width: 1px 1px 1px 0;
+}
+.com-tabs{
+    float: left;
+    width: 978px;
+    height: 50px;
+    box-sizing: border-box;
+    border: solid #d9d9d9 1px;
+    border-width: 1px 0 1px 1px;
+}
+.com-tabs a{
+    width: 160px;
+    height: 50px;
+    display: inline-block;
+    line-height: 45px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-width: 0px 1px 0px 0px;
+    font-size: 16px;
+    color: #262626;
+}
+.com-tabs .rd{
+    color: #ea413c;
+    border-top: 2px solid #ea413c;
+    border-bottom: 0;
+    padding-top: 0;
+}
+/* 放大镜 */
+.div1{
+    /* width: 1000px;
+    height: 500px;
+    margin: 30px auto; */
+    position: relative;
+    float: left;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}
+.box .mark{
+    width: 250px;
+    height: 250px;
+    background: rgba(0,0,0,.3);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+.rightBox{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 550px;
+    overflow: hidden;
+    display: none;
+}
+.rightBox img{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+}
+.imgs{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+}
+.imgs img{
+    width: 78px;
+    height: 78px;
+    float: left;
+    margin: 5px;
+    border: 1px solid #e8e8e8;
+}
+.show{
+    border: 1px solid red;
+}

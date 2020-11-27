@@ -1,0 +1,74 @@
+#zhuce{
+    width: 100%;
+    height: 560px;
+    background: url(../images/zhuce.png) center;
+    position: relative;
+}
+.zhuceIpu{
+    width: 400px;
+    height: 390px;
+    padding-top: 30px;
+    background: #f6f6f7;
+    font-size: 12px;
+    color: #8c8c8c;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    margin-left: 200px;
+    z-index: 1;
+    text-align: center;
+}
+.zhuceIpu h2{
+    font-size: 20px;
+    line-height: 20px;
+    color: #595959;
+    margin-bottom: 30px;
+}
+.ipone{
+    width: 280px;
+    height: 28px;
+    padding: 5px 8px;
+    border-radius: 2px;
+    border: 1px solid #d9d9d9;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.pass{
+    width: 280px;
+    height: 28px;
+    padding: 5px 8px;
+    border-radius: 2px;
+    border: 1px solid #d9d9d9;
+    font-size: 14px;
+}
+.pass2{
+    margin-bottom: 30px;
+}
+.btn1{
+    display: inline-block;
+    color: rgba(255,255,255,0.5);
+    background: #ea413c !important;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#zhuce .agreement{
+    /* height: 16px; */
+    text-align: left;
+    margin-left: 50px;
+}
+#zhuce .agreement input{
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+}
+.zhuceIpu a:last-child{
+    display: inline-block;
+    padding-top: 50px;
+    color: #595959;
+    font-size: 14px;
+}
